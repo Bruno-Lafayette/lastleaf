@@ -1,0 +1,31 @@
+*{
+    font-family: 'Baskervville', serif;
+    background-color: #2b2934;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 80px;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu p{
+    color: #8f8e9a;
+    margin-top: 5rem;
+    text-align: right;
+    font-size: 30px;
+}
+
+.banner img {
+    width: 100vw;
+    position:absolute;
+    bottom: 0;
+}

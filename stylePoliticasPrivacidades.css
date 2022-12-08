@@ -1,0 +1,28 @@
+*{
+    font-family: 'Baskervville', serif;
+    background-color: #2b2934;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.politica{
+    margin: 3rem;
+}
+
+.politica h1{
+    text-align: center;
+    color: #8f8e9a;
+    margin-bottom: 2rem;
+    font-size: 50px;
+}
+
+li{
+    margin: 2rem 2rem;
+    color: #8f8e9a;
+    font-size: 30px;
+}
+
+p{
+    color: #8f8e9a;
+    font-size: 20px;
+}
