@@ -5,6 +5,16 @@
     margin: 0;
 }
 
+.menu p{
+    margin: 1rem;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+
+
 .politica{
     margin: 3rem;
 }
@@ -25,4 +35,40 @@ li{
 p{
     color: #8f8e9a;
     font-size: 20px;
+}
+
+
+#menuSelecionado:hover{
+    color: #CFE8c5;
+}
+#menuSelecionado:hover:active{
+    color: #3c473a;
+    
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .politica{
+        margin: 1rem;
+    }
+
+    .politica h1{
+        margin: 2rem;
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    li{
+        font-size: 18px;
+        padding: 0%;
+    }
+
+    ol{
+        padding: 0%;
+    }
+
 }

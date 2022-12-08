@@ -5,11 +5,20 @@
     margin: 0;
 }
 
+
+
+#menuSelecionado:hover{
+    color: #CFE8c5;
+}
+#menuSelecionado:hover:active{
+    color: #3c473a;
+    
+}
+
 .menu{
     display: flex;
     justify-content: center;
     align-items: center;
-    
     height: 80px;
 }
 
@@ -28,4 +37,10 @@
     width: 100vw;
     position:absolute;
     bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .menu p{
+        font-size: 18px;
+    }
 }
